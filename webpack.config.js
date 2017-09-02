@@ -47,7 +47,7 @@ module.exports = {
       include: __dirname
     }, {
       test: /\.css$/,
-      loaders: ["style-loader", "css-loader"],
+      loaders: ["style-loader", "raw-loader"],
       include: __dirname
     }, {
       test: /\.svg$/,
